@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.coffeeapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_Cardapio"
+        android:name="com.example.coffeeapp.ui.cardapio.CardapioFragment"
+        android:label="Cardapio"
+        tools:layout="@layout/fragment_cardapio" />
+
+    <fragment
+        android:id="@+id/nav_encomenda"
+        android:name="com.example.coffeeapp.ui.encomenda.encomendaFragment"
+        android:label="Encomenda"
+        tools:layout="@layout/fragment_encomenda" />
+
+    <fragment
+        android:id="@+id/nav_sobre"
+        android:name="com.example.coffeeapp.ui.sobre.SobreFragment"
+        android:label="Sobre"
+        tools:layout="@layout/fragment_sobre" />
+
+    <fragment
+        android:id="@+id/nav_contato"
+        android:name="com.example.coffeeapp.ui.contato.Contato"
+        android:label="Contato"
+        tools:layout="@layout/fragment_contato" />
+
+
+</navigation>

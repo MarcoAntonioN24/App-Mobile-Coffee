@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/store"
+            android:title="home" />
+        <item
+            android:id="@+id/nav_Cardapio"
+            android:icon="@drawable/cardapiomenu"
+            android:title="Cardapio" />
+        <item
+            android:id="@+id/nav_encomenda"
+            android:icon="@drawable/encomenda"
+            android:title="encomenda" />
+
+        <item
+            android:id="@+id/nav_sobre"
+            android:icon="@drawable/sobre"
+            android:title="Sobre" />
+
+        <item
+            android:id="@+id/nav_contato"
+            android:icon="@drawable/contato"
+            android:title="contato" />
+
+
+
+
+    </group>
+</menu>
